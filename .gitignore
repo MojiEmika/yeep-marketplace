@@ -39,3 +39,19 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# environment variables & secrets
+.env
+.env.*
+!.env.example
+*.keystore
+credentials.json
+service-account*.json
+
+# Claude Code / AI assistant local settings
+.claude/
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
