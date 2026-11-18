@@ -29,9 +29,19 @@ YeEP is a mobile app for buying and selling second-hand items within **Suranaree
 
 ## My Role
 
-<!-- TODO: Describe your role and contributions here -->
+This is a two-person project:
 
-_To be filled in._
+- **Design** — my teammate created the brand identity (logo, color palette, typography) and the UI designs for the key screens.
+- **Development** — I built the entire app myself, turning those designs into a working mobile app.
+
+What I did:
+
+- Chose the tech stack (React Native + Expo, with Supabase planned as the backend)
+- Developed all 21 screens — browse & search, listing detail, sell form, wishlist, chat, campus meetups, profile, reviews, reporting and settings — running on mock data so every flow can be demoed before the backend is ready
+- Set up navigation with React Navigation (bottom tabs + native stack)
+- Managed app state and actions with React Context (`AppContext`)
+- Translated the design system into code: design tokens in `theme.js` (navy `#071943`, cream `#FFF8ED`, accent blue, pink) and reusable UI components
+- Designed the screens and flows that weren't in the original mockups so the whole app stays consistent
 
 ## Getting Started
 
@@ -74,13 +84,10 @@ Sign in with any email ending in `@g.sut.ac.th`. The mock verification code is `
 
 ## Screenshots
 
-<!-- Add screenshots, e.g. put images in docs/screenshots/ and reference them below -->
+| Home | Search & filters | Sell (step 2 of 4) |
+| --- | --- | --- |
+| <img src="docs/screenshots/home.jpg" width="240" alt="Home screen"> | <img src="docs/screenshots/search.jpg" width="240" alt="Search with category filters"> | <img src="docs/screenshots/sell.jpg" width="240" alt="Sell form"> |
 
-| Home | Listing Detail | Chat | Meetup |
-| --- | --- | --- | --- |
-| _coming soon_ | _coming soon_ | _coming soon_ | _coming soon_ |
-
-<!--
-Example:
-| <img src="docs/screenshots/home.png" width="200"> | <img src="docs/screenshots/listing.png" width="200"> | ... |
--->
+| Chat & meetup | Profile |
+| --- | --- |
+| <img src="docs/screenshots/chat.jpg" width="240" alt="Chat with meetup request"> | <img src="docs/screenshots/profile.jpg" width="240" alt="Profile with wishlist tab"> |
